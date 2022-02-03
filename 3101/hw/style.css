@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    letter-spacing: 1.3px;
+}
+
+.text-light {
+    font-weight: 300;
+}
+
+.text-regular {
+    font-weight: 400;
+}
+
+.text-bold {
+    font-weight: 700;
+}
+
+.text-black {
+    font-weight: 900;
+}
+
+.text {
+    font-size: 16px;
+    margin-top: 25px;
+    line-height: 28px;
+}
+
+.mar-top {
+    margin-top: 30px;
+}
+
+.btn {
+    border: 1px solid #d5d6d7;
+    border-radius: 5px;
+    background: none;
+    color: #d5d6d7;
+    padding: 15px 35px;
+    font-size: 16px;
+    margin-top: 50px;
+}
+
+h2 {
+    font-size: 45px;
+    line-height: 66px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1366px;
+    height: 2283px;
+    display: grid;
+    grid-template-columns: 33.4% 11.6% 21.5% 33.5%;
+    grid-template-rows: 31.4% 18.6% 18.6% 31.4%;
+}
+
+.about {
+    padding: 55px 50px;
+}
+
+.picture {
+    background: url(img/Rectangle1.jpg) no-repeat top left/cover;
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.project {
+    background-color: #f3f3f3;
+    grid-column: 4/5;
+    grid-row: 1/2;
+    color: #262f32;
+}
+
+.project h1 {
+    font-size: 40px;
+    line-height: 58px;
+    margin-top: 70px;
+}
+
+.project p {
+    font-size: 18px;
+}
+
+.work {
+    background: url(img/Rectangle2.jpg) no-repeat top left/cover;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: #ffffff;
+}
+
+.history {
+    background: url(img/Rectangle3.jpg) no-repeat top left/cover;
+    grid-column: 3/5;
+    grid-row: 2/3;
+    color: #262f32;
+    padding-right: 100px;
+}
+
+.history .btn {
+    border-color: #262f32;
+    color: #262f32;
+}
+
+.dummy {
+    background: url(img/Rectangle4.jpg) no-repeat top left/cover;
+    grid-column: 3/5;
+    grid-row: 3/4;
+    color: #ffffff;
+    padding-right: 100px;
+}
+
+.dummy p {
+    color: #d1d2d4;
+}
+
+.creator {
+    background: url(img/Rectangle5.jpg) no-repeat top left/cover;
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.creator h2 {
+    height: 370px;
+}
+
+.creator__about img {
+    margin-left: 5px;
+}
+
+.creator__about .text-black {
+    font-size: 45px;
+    margin-top: 25px;
+}
+
+.creator__about .text {
+    margin-top: 20px;
+}
+
+.link {
+    background: url(img/Rectangle6.jpg) no-repeat top left/cover;
+    grid-column: 2/5;
+    grid-row: 4/5;
+}
+
+.link input {
+    width: 305px;
+    height: 55px;
+    margin-right: 5px;
+}
+
+.link input::-webkit-input-placeholder {
+    color: #e9ebeb;
+}
+
+.link textarea::-webkit-input-placeholder {
+    color: #e9ebeb;
+}
+
+.link textarea {
+    width: 620px;
+    height: 160px;
+    margin-top: 10px;
+}
+
+.link__btn {
+    margin-top: 90px;
+}
+
+.link img {
+    margin: 20px 5px 40px 0;
+}
